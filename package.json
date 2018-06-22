@@ -1,13 +1,18 @@
 {
   "name": "citrix-script-feed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "John McBride",
-    "email": "john.mcbride@citrix.com"
+    "email": "john.mcbride@citrix.com",
+    "url": "http://www.johnmcbride.me"
   },
   "bin": {
     "citrix-script-feed": "./index.js"
   },
+  "repository": {
+    "url": "https://github.com/johnmcbride/citrix-script-feed-gen"
+  },
+  "homepage": "http://developer.citrix.com",
   "preferGlobal": true,
   "dependencies": {
     "adm-zip": "^0.4.11",
